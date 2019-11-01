@@ -1,0 +1,26 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "UXCalibur"
+theme = "Uxcalibur"
+
+[permalinks]
+  portfolio = "portfolio/:filename"
+  page = "/:filename"
+
+[params]
+    homeText = "Hello world"
+    dateFormat = "2 Jan, 2006"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Portfolio"
+    url = "/portfolio/"
+    weight = 2
+  [[menu.main]]
+    name = "About me"
+    url = "/about-me"
+    weight = 3

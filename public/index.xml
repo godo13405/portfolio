@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UXCalibur</title>
+    <link>http://example.org/</link>
+    <description>Recent content on UXCalibur</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Sep 2019 10:45:06 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Retirement Aviva.co.uk redesign</title>
+      <link>http://example.org/portfolio/retirement-aviva-co-uk-redesign/</link>
+      <pubDate>Mon, 16 Sep 2019 10:45:06 +0000</pubDate>
+      
+      <guid>http://example.org/portfolio/retirement-aviva-co-uk-redesign/</guid>
+      <description>Redesign the retirement public website I had the chance to redesign the pensions and retirement section of the UK website for Aviva. The previous one was confusing to the users and not structured consistently, with plenty of duplicated content and jargon. This old site was structured from the business point of view, listing out the products like a menu. Problem is, most people have no idea what pension they have or how to use it.</description>
+    </item>
+    
+  </channel>
+</rss>

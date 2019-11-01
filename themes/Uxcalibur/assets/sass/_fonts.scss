@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Roboto&display=swap");
+
+html {
+  font-size: $font-size;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif;
+  font-size: $font-size * 4;
+}
+@for $i from 1 to 7 {
+  h#{$i} {
+    font-size: $font-size + 4 * (6 - $i);
+  }
+}

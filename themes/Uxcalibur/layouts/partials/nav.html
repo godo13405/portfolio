@@ -1,0 +1,6 @@
+<nav id="nav" class="nav">
+  {{ range.Site.Menus.main }}
+  {{ $text := print .Name | safeHTML }}
+  <a class="nav-link" href="{{ .URL }}">{{ $text }}</a>
+  {{ end }}
+</nav>
