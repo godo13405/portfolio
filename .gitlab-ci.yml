@@ -1,20 +1,36 @@
-# All available Hugo versions are listed here: https://gitlab.com/pages/hugo/container_registry
-image: registry.gitlab.com/pages/hugo:latest
+stages:
+  - compile
+  - deploy
 
-variables:
-  GIT_SUBMODULE_STRATEGY: recursive
-
-test:
+compile:
+  stage: compile
+  image: node:8.15-alpine
   script:
-    - hugo
-  except:
-    - master
-
-pages:
-  script:
-    - hugo
-  artifacts:
-    paths:
-      - public
+    - yarn global add node-sass
+    - node-sass ./themes/Uxcalibur/assets/sass/style.scss ./themes/Uxcalibur/static/css/style.min.css --style compressed
   only:
     - master
+  artifacts:
+    paths:
+      - ./themes/Uxcalibur/static/css/style.min.css
+deploy:
+  # All available Hugo versions are listed here: https://gitlab.com/pages/hugo/container_registry
+  image: registry.gitlab.com/pages/hugo:latest
+
+  variables:
+    GIT_SUBMODULE_STRATEGY: recursive
+
+  test:
+    script:
+      - hugo
+    except:
+      - master
+
+  pages:
+    script:
+      - hugo
+    artifacts:
+      paths:
+        - public
+    only:
+      - master
