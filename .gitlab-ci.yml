@@ -1,6 +1,6 @@
 stages:
   - compile
-  - deploy
+  - build
 
 compile:
   stage: compile
@@ -13,7 +13,7 @@ compile:
   artifacts:
     paths:
       - ./themes/Uxcalibur/static/css/style.min.css
-deploy:
+build:
   # All available Hugo versions are listed here: https://gitlab.com/pages/hugo/container_registry
   image: registry.gitlab.com/pages/hugo:latest
 
