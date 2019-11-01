@@ -16,13 +16,16 @@ compile:
 
 build:
   stage: build
-  image: registry.gitlab.com/pages/hugo:latest
+  image: monachus/hugo
+
   variables:
     GIT_SUBMODULE_STRATEGY: recursive
-  script:
-    - hugo
-  artifacts:
-    paths:
-      - public
-  only:
-    - master
+
+  pages:
+    script:
+      - hugo
+    artifacts:
+      paths:
+        - public
+    only:
+      - master
