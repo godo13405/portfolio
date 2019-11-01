@@ -4,7 +4,7 @@
     name="viewport"
     content="width=device-width, initial-scale=1, shrink-to-fit=no"
   />
-  {{ $sass := resources.Get "../assets/sass/style.scss" | resources.ToCSS }}
-  <link rel="stylesheet" href="{{ $sass }}" type="text/css" />
+  {{ $sass := resources.Get "../assets/sass/style.scss"  | toCSS | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $sass.Permalink }}" type="text/css" />
   <title>{{ .Title }}</title>
 </head>
