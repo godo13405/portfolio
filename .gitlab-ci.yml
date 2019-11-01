@@ -1,14 +1,9 @@
-stages:
-  - build
-  - compile
+image: monachus/hugo
 
-build:
-  stage: build
-  image: registry.gitlab.com/pages/hugo:latest
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
 
-  variables:
-    GIT_SUBMODULE_STRATEGY: recursive
-
+pages:
   script:
     - hugo
   artifacts:
@@ -16,15 +11,3 @@ build:
       - public
   only:
     - master
-
-compile:
-  stage: compile
-  image: node:8.15-alpine
-  script:
-    - yarn global add node-sass
-    - node-sass ./themes/Uxcalibur/assets/sass/style.scss ./public/css/style.min.css --style compressed
-  only:
-    - master
-  artifacts:
-    paths:
-      - ./public/css/style.min.css
