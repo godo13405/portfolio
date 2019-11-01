@@ -1,18 +1,6 @@
 stages:
-  - compile
   - build
-
-compile:
-  stage: compile
-  image: node:8.15-alpine
-  script:
-    - yarn global add node-sass
-    - node-sass ./themes/Uxcalibur/assets/sass/style.scss ./themes/Uxcalibur/static/css/style.min.css --style compressed
-  only:
-    - master
-  artifacts:
-    paths:
-      - ./themes/Uxcalibur/static/css/style.min.css
+  - compile
 
 build:
   stage: build
@@ -28,3 +16,15 @@ build:
       - public
   only:
     - master
+
+compile:
+  stage: compile
+  image: node:8.15-alpine
+  script:
+    - yarn global add node-sass
+    - node-sass ./themes/Uxcalibur/assets/sass/style.scss ./public/css/style.min.css --style compressed
+  only:
+    - master
+  artifacts:
+    paths:
+      - ./public/css/style.min.css
