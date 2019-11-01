@@ -1,4 +1,9 @@
+stages:
+  - compile
+  - build
+
 compile:
+  stage: compile
   image: node:8.15-alpine
   script:
     - yarn global add node-sass
@@ -10,6 +15,7 @@ compile:
       - ./themes/Uxcalibur/static/css/style.min.css
 
 build:
+  stage: build
   image: registry.gitlab.com/pages/hugo:latest
   variables:
     GIT_SUBMODULE_STRATEGY: recursive
