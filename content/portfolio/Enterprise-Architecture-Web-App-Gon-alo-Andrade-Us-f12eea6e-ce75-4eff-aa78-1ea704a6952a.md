@@ -6,7 +6,7 @@ categories:
 color: "grey"
 ---
 
-![](Enterprise-Architecture-featured-6486c890-db17-43fd-a5e5-a8bb1e5fa2d0.png)
+![](Enterprise-Architecture-featured.png)
 
 ## Enterprise Architecture web app
 

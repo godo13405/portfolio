@@ -6,7 +6,7 @@ categories:
 color: "#4d5ab3"
 ---
 
-![](fly-higher-featured-9f82f4ff-5ab1-4ca2-bde0-bf6dfe9d7616.png)
+![](Fly-Higher-feature.png)
 
 [Inova+](https://goncaloandrade.com/client/inova/)A consultancy that helped other companies do projects for the European Union. This involved, amongst many other things, graphic design for all their communication materials. I helped Inova+ design logos and identities to use with these on several projects.
 

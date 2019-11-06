@@ -1,0 +1,24 @@
+.hero {
+  text-align: center;
+  height: 65vh;
+  max-height: 700px;
+  min-height: 350px;
+  display: flex;
+  align-items: center;
+  .inner {
+    margin: 0 auto;
+  }
+  figure {
+    position: relative;
+    display: inline-block;
+    img {
+      width: 40vmin;
+      min-width: 300px;
+    }
+    figcaption {
+      position: absolute;
+      top: 65%;
+      left: 55%;
+    }
+  }
+}

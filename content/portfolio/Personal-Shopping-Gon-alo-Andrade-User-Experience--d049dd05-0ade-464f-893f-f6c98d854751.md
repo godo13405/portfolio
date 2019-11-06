@@ -6,7 +6,7 @@ categories:
 color: "#eac2b9"
 ---
 
-![](03-083d8f3d-8420-4c17-b155-364bcdff39b3.png)
+![](Stylist-feature.png)
 
 ## Helping personal stylists better serve their customers
 

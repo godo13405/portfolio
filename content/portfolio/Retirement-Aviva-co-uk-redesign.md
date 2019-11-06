@@ -6,7 +6,7 @@ categories:
 color: "#009fb8"
 ---
 
-![](aviva-retirement-featured-88a47575-6ae1-4463-8d32-237f1728dd3d.png)
+![](Aviva-retirement-feature.png)
 
 ## Redesign the retirement public website
 

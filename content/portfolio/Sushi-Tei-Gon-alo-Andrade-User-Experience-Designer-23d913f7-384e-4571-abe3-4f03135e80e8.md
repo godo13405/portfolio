@@ -6,7 +6,7 @@ categories:
 color: "#9e9e9e"
 ---
 
-![](sushi-tei-featured-33c81211-b5d4-4e88-8a91-8220950ca063.png)
+![](Sushi-Tei-feature.png)
 
 # Sushi Restaurant branding
 

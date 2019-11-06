@@ -8,7 +8,7 @@ theme = "Uxcalibur"
   page = "/:filename"
 
 [params]
-    homeText = "Hello world"
+    Tagline = "UX, Product, Digital Design"
     dateFormat = "2 Jan, 2006"
 
 [menu]

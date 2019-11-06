@@ -1,0 +1,47 @@
+.gallery {
+  @media all and (min-width: $mobile-width) {
+    column-count: 2;
+    column-fill: balance;
+    &.col-3 {
+      column-count: 3;
+    }
+  }
+}
+
+.portfolio-gallery {
+  $font-size: 1.4em;
+  $padding: $font-size;
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  @media all and (min-width: $mobile-width) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  grid-template-rows: repeat(auto-fill, 1fr);
+  grid-auto-flow: row;
+  .highlight {
+    grid-column-end: span 2;
+    grid-row-end: span 2;
+  }
+  > * {
+    min-height: 300px;
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top: $font-size * 3 solid transparent;
+    border-bottom: $font-size/2 solid transparent;
+    font-size: $font-size;
+  }
+  a {
+    text-decoration: none;
+    position: absolute;
+    top: $padding;
+    left: $padding;
+    right: $padding;
+    bottom: $padding;
+    margin-top: -$font-size * 3;
+    color: #fff;
+  }
+}

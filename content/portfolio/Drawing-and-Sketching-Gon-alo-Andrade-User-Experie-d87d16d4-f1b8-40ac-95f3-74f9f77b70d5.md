@@ -6,7 +6,7 @@ categories:
 color: "grey"
 ---
 
-![](drawing-featured-5c62e388-c831-4ad1-8b70-2c73dfe0a565.png)
+![](Drawing-feature.png)
 
 ## Mastering “pen & paper” sketching
 

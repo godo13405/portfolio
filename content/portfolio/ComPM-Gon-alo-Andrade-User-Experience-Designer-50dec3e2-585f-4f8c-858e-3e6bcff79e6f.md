@@ -6,7 +6,7 @@ categories:
 color: "#142b52"
 ---
 
-![](compm-featured-58643014-b366-4538-9a56-0097edfc0e49.png)
+![](comPM-feature.png)
 
 [Inova+](https://goncaloandrade.com/client/inova/)A consultancy that helped other companies do projects for the European Union. This involved, amongst many other things, graphic design for all their communication materials. I helped Inova+ design logos and identities to use with these on several projects.
 

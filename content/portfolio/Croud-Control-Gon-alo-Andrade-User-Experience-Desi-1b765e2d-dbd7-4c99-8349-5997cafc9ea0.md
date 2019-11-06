@@ -6,7 +6,7 @@ categories:
 color: "teal"
 ---
 
-![](Croud-featured-01031e69-9da7-453f-bf70-b871eee5a497.png)
+![](Croud-feature.png)
 
 ## Improving how marketing plans are done
 

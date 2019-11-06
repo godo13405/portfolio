@@ -7,7 +7,7 @@ highlight: true
 color: "#fa5021"
 ---
 
-![](EDF-featured-fb795e0a-dbf8-46b9-b3c6-73ec37def274.png)
+![](EDF-feature.png)
 
 ## Revitalising an old supplier with a new way of approaching energy
 

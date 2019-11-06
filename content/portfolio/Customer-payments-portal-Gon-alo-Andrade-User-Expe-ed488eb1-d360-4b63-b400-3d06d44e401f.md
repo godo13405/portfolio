@@ -6,7 +6,7 @@ categories:
 color: "#c2185b"
 ---
 
-![](smartmockups_k0hzw5h3-6d706c25-4fd9-403b-b878-b778be3a85c9.png)
+![](Payments-portal-feature.png)
 
 I was brought in to help design the company’s first bespoke client-facing management system.
 

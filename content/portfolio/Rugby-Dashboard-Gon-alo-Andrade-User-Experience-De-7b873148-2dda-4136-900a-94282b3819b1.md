@@ -7,7 +7,7 @@ color: "#e56816"
 highlight: true
 ---
 
-![](rubgy-stats-featured-fefdeced-5503-43b4-8c33-2e145be7dead.png)
+![](Rugby-Stats-feature.png)
 
 ## About the project
 

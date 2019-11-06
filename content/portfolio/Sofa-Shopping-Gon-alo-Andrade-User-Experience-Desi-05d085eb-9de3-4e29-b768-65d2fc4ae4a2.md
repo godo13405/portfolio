@@ -6,7 +6,7 @@ categories:
 color: "#9c27b0"
 ---
 
-![](Artboard_ipadair2_gold_right-1-e1551045281178-0550fba8-585b-4475-b02a-a93296d2dcd1.png)
+![](Sofa-feature.png)
 
 ## Redesigning how people shop for sofas
 
@@ -15,7 +15,6 @@ Sofa shopping is an important event in anyone’s life, as it’s a large purcha
 The current online journey is generic to all products and doesn’t cater to the specific needs of someone looking for the perfect sofa.
 
 ![](Screenshot-2019-02-23-at-21-8c0f552c-37b1-4a68-bfa4-e9c21df85026.25.19-1024x885.png)
-
 ![](Screenshot-2019-02-23-at-21-a0929a23-91b8-4fff-babc-04160df31ca8.28.48-1024x959.png)
 
 I was brought on board to take over the UX of the beta app they had built. This was an isolated, sandboxed micro-site only for upholstery where new ideas could be tested while keeping the regular experience up and running.
@@ -49,13 +48,9 @@ New user journey
 So, to test this assumption, a prototype was put together to quickly validate this assumption which, if correct, would result in quite a dramatic shift for the team.
 
 ![](B1628267-627E-4958-BA02-CD66F0AC564B-1-e1551043095725-1024x1024-0a20e5a4-1cb4-45d2-b85f-76556897c97d.png)
-
 ![](8202E475-733B-4187-A27E-E9341FBE2A91-e1551042986402-1024x1024-63d09b97-9479-4bc5-89b7-9e865f23d1dd.png)
-
 ![](E6AB5828-20F9-47E5-B8C9-AA566B8890D3-e1551043124987-1024x1024-acca1cb6-1287-4c6f-a408-d50d5fa185fd.png)
-
 ![](DDC85887-419C-4C82-8E6E-E9AF20151529-e1551043016713-1024x1024-fe729a7a-a92e-4564-9697-ff1262a0ae72.png)
-
 ![](8D71EF9D-A7F2-4FD5-BBAE-F99E2B7CA0B5-e1551043050512-1024x1024-eb611100-c045-45dc-8e05-3927d94fd24c.png)
 
 The test results we got back were encouraging, so we knew we had hit the nail on the head and should proceed with the new sofa shopping journey.
@@ -63,15 +58,10 @@ The test results we got back were encouraging, so we knew we had hit the nail on
 There were some issues participants had with configuring the product, so we tested another version of the product page, this one simplified even further and with more space for each of the configurations, so we can make our users (mostly middle-aged and older) as comfortable as we can.
 
 ![](PDP-page-Product-details-e1551043742426-640x1024-c98e3e99-fb25-4cc0-b125-1aa50255108d.png)
-
 ![](PDP-page-size-left-e1551043782856-640x1024-23738bd5-ff32-4b7a-a61f-eab329f2f414.png)
-
 ![](PDP-page-colour-corner-e1551043700870-639x1024-c671f62c-13e4-46a6-808a-f36f4d75ab0c.png)
-
 ![](PDP-page-colour-more-corner-e1551043713616-641x1024-c99e4478-8ef8-4c37-a2d7-c5d82785bbe2.png)
-
 ![](PDP-page-colourB-reds-selected-e1551043688871-640x1024-e6716a3e-dc4b-4814-ac45-5651d91486dc.png)
-
 ![](PDP-page-sizeB-corner-red-e1551043649898-1024x1024-e268234f-f763-4cf9-898c-6687eb27a76a.png)
 
 ## Design System and Integration

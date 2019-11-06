@@ -6,7 +6,7 @@ categories:
 color: "#f9bc06"
 ---
 
-![](aviva-investments-featured-af46b861-61e9-4fe0-93b5-c84605fcf5a9.png)
+![](Aviva-investments-feature.png)
 
 ## Redesign the public website
 

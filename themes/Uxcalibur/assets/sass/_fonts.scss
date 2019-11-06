@@ -1,8 +1,39 @@
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Roboto&display=swap");
+@font-face {
+  font-family: "Fira Sans";
+  src: local("Fira Sans Light"), local("FiraSans-Light"),
+    url("../../content/font/FiraSans-Light.woff2") format("woff2"),
+    url("../../content/font/FiraSans-Light.woff") format("woff"),
+    url("../../content/font/FiraSans-Light.svg#FiraSans-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  src: local("Fira Sans Medium"), local("FiraSans-Medium"),
+    url("../../content/font/FiraSans-Medium.woff2") format("woff2"),
+    url("../../content/font/FiraSans-Medium.woff") format("woff"),
+    url("../../content/font/FiraSans-Medium.svg#FiraSans-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT Super Display";
+  src: local("GT Super Display Trial Medium"),
+    local("GTSuperDisplayTrial-Medium"),
+    url("../../content/font/GTSuperDisplayTrial-Medium.woff2") format("woff2"),
+    url("../../content/font/GTSuperDisplayTrial-Medium.woff") format("woff"),
+    url("../../content/font/GTSuperDisplayTrial-Medium.svg#GTSuperDisplayTrial-Medium")
+      format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
 
 html {
   font-size: $font-size;
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+  font-weight: 300;
 }
 
 h1,
@@ -11,7 +42,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif;
+  font-family: "GT Super Display", Georgia, "Times New Roman", Times, serif;
   font-size: $font-size * 4;
 }
 @for $i from 1 to 7 {
