@@ -32,7 +32,15 @@
     background-position: center;
     border-top: $font-size * 3 solid transparent;
     border-bottom: $font-size/2 solid transparent;
+    margin: 0.1em;
     font-size: $font-size;
+    transition: background-color 0.2s ease-out, color 0.2s ease-out;
+    &:not(:hover) {
+      background-color: #eee !important;
+      a {
+        color: #111;
+      }
+    }
   }
   a {
     text-decoration: none;

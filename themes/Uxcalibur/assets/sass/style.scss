@@ -20,9 +20,29 @@ img {
   max-width: $max-width;
   margin: 0 auto;
 }
+
 .contained-small {
   max-width: $max-width-small;
   margin: 0 auto;
 }
 
-@import "article", "gallery", "hero";
+[class^="col-"] {
+  float: left;
+  padding-left: 1.2em;
+  padding-right: 1.2em;
+}
+
+@for $i from 0 to 3 {
+  .col-#{$i} {
+    width: (100% / 3) * $i;
+  }
+}
+
+.section {
+  clear: both;
+  padding-top: $padding;
+  padding-bottom: $padding;
+}
+
+@import "component/button";
+@import "article", "gallery", "hero", "medium";

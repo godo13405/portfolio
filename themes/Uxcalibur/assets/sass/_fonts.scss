@@ -34,19 +34,27 @@ html {
   font-size: $font-size;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
   font-weight: 300;
+  color: $color-text;
 }
 
 h1,
 h2,
-h3,
+h3 {
+  font-family: "GT Super Display", Georgia, "Times New Roman", Times, serif;
+}
+
 h4,
 h5,
 h6 {
-  font-family: "GT Super Display", Georgia, "Times New Roman", Times, serif;
-  font-size: $font-size * 4;
+  font-weight: 300;
 }
+
 @for $i from 1 to 7 {
   h#{$i} {
-    font-size: $font-size + 4 * (6 - $i);
+    font-size: $font-size + 6 * (6 - $i);
+
+    @media all and (max-width: $mobile-width) {
+      font-size: $font-size-proportional * (6 - $i);
+    }
   }
 }

@@ -1,7 +1,7 @@
 .hero {
   text-align: center;
-  height: 65vh;
-  max-height: 700px;
+  height: 900px;
+  max-height: 80vh;
   min-height: 350px;
   display: flex;
   align-items: center;
@@ -19,6 +19,8 @@
       position: absolute;
       top: 65%;
       left: 55%;
+      text-align: right;
+      white-space: nowrap;
     }
   }
 }

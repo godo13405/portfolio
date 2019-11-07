@@ -1,0 +1,24 @@
+.medium {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  position: relative;
+  .medium-article {
+    flex: 1;
+    padding: 0.2em;
+  }
+  .thumb {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100%;
+  }
+  a {
+    text-decoration: none;
+    color: $color-text;
+  }
+  .title {
+    margin: 0;
+    padding: 0.4em;
+  }
+}

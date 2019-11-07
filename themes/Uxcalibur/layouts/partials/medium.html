@@ -1,0 +1,16 @@
+{{ $mediumFeed := getJSON "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@goncaloandrade" }}
+<div class="medium-container">
+  <ul class="medium">
+    {{ range $mediumFeed.items | first 4 }}
+    <li class="medium-article">
+      <a href="{{ .link | safeURL }}">
+        <div
+          class="thumb"
+          style="background-image:url({{ .thumbnail | safeURL }})"
+        ></div>
+        <h5 class="title" >{{ .title | truncate 60}}</h5>
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+</div>
