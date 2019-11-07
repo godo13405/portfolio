@@ -1,4 +1,5 @@
 .gallery {
+  width: 100%;
   @media all and (min-width: $mobile-width) {
     column-count: 2;
     column-fill: balance;

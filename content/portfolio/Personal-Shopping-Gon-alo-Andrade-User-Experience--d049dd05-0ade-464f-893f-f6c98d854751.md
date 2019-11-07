@@ -20,11 +20,9 @@ This was not only annoying and unproductive but encouraged the stylists to find 
 
 I started by mapping the personal shopping experience, with all the steps for both the customer and the stylist across all channels
 
-![](IMG_20190305_163128-8d2d56e6-1516-4b4e-b625-684e8892cd91.jpg)
-
-![](IMG_20190318_121624-edb921b0-3b5e-42e8-b15a-f4db80956dd6.jpg)
-
-![](IMG_20190322_152031-8269ce00-fa50-4548-9b52-6d76a4cdd1b3.jpg)
+![](Stylist-1.jpg)
+![](Stylist-2.jpg)
+![](Stylist-3.jpg)
 
 This proved particularly helpful as a discussion piece on the wall. I gathered the whole team multiple times around the experience map, which focused the discussion around user needs, as opposed to business requirements.
 
