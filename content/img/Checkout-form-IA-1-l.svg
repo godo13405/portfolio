@@ -1,0 +1,25 @@
+<svg viewBox="0 0 382 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g><rect x="0" y="0" width="382" height="180" fill="white" stroke="#555"/>
+<text x="20" y="40" style="fill:#111;font-size:1.6em;font-family: 'GT Super Display', Georgia, 'Times New Roman', Times, serif">Personal Information</text>
+<text x="20" y="50" style="fill:#111;font-size:1.2em;font-family: 'Fira Sans', Arial, Helvetica, sans-serif;">
+    <tspan x="20" dy="1.8em">Honorific</tspan>
+    <tspan x="20" dy="1.8em">Name</tspan>
+    <tspan x="20" dy="1.8em">Surname</tspan>
+    </text>
+</g>
+<g><rect x="0" y="200" width="382" height="280" fill="white" stroke="#555"/>
+<text x="20" y="240" style="fill:#111;font-size:1.6em;font-family: 'GT Super Display', Georgia, 'Times New Roman', Times, serif">Card</text>
+<text x="20" y="250" style="fill:#111;font-size:1.2em;font-family: 'Fira Sans', Arial, Helvetica, sans-serif;">
+    <tspan x="20" dy="1.8em">Type</tspan>
+    <tspan x="20" dy="1.8em">
+Long Card Number</tspan>
+    <tspan x="20" dy="1.8em">
+Name</tspan>
+    <tspan x="20" dy="1.8em">
+Start Date</tspan>
+    <tspan x="20" dy="1.8em">
+End Date</tspan>
+    <tspan x="20" dy="1.8em">
+CVV</tspan>
+    </text></g>
+</svg>

@@ -28,43 +28,13 @@ The checkout form provided is lengthy and the lack of visual hierarchy makes it 
 
 Firstly, the information was broken down into logical segments, away from any interface or possible implementation. This allowed me to consider it on it’s on, and organise it on a conceptual level.
 
-### Personal Information
-
-Honorific
-
-Name
-
-Surname
-
-Long Card Number
-
-Name
-
-Start Date
-
-End Date
-
-CVV
+![](Checkout-form-IA-1-l.svg)
+![](Checkout-form-IA-1-r.svg)
 
 Once the schematic was done, I then rearranged the blocks of information to make it more intuitive.
 
-Honorific
-
-Name
-
-Type (auto detect)
-
-Name
-
-Start Date / End Date
-
-End Date
-
-Town / County
-
-Same as Delivery Address
-
-Town / County
+![](Checkout-form-IA-2-l.svg)
+![](Checkout-form-IA-2-r.svg)
 
 ### User journey
 

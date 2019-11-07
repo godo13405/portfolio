@@ -1,0 +1,40 @@
+<svg viewBox="0 0 382 650" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g><rect x="0" y="0" width="382" height="320" fill="white" stroke="#555"/>
+<text x="20" y="40" style="fill:#111;font-size:1.6em;font-family: 'GT Super Display', Georgia, 'Times New Roman', Times, serif">
+<tspan fill="green">Deliver </tspan>
+<tspan>Address</tspan>
+</text>
+<text x="20" y="50" style="fill:#111;font-size:1.2em;font-family: 'Fira Sans', Arial, Helvetica, sans-serif;">
+    <tspan x="20" dy="1.8em" fill="green">Post Code</tspan>
+    <tspan x="20" dy="1.8em">House Number</tspan>
+    <tspan x="20" dy="1.8em">Street</tspan>
+    <tspan x="20" dy="1.8em" text-decoration="line-through" fill="#aaa">Post Code</tspan>
+    <tspan x="20" dy="1.8em">
+        <tspan>Town</tspan>
+        <tspan fill="green"> / County</tspan>
+    </tspan>
+    <tspan x="20" dy="1.8em" text-decoration="line-through" fill="#aaa">County</tspan>
+    <tspan x="20" dy="1.8em">Country</tspan>
+    </text>
+    </g><g>
+    <rect x="0" y="340" width="382" height="310" fill="white" stroke="#555"/>
+<text x="20" y="380" style="fill:#111;font-size:1.6em;font-family: 'GT Super Display', Georgia, 'Times New Roman', Times, serif">Billing Address</text>
+<text x="20" y="390" style="fill:#111;font-size:1.2em;font-family: 'Fira Sans', Arial, Helvetica, sans-serif;">
+    <tspan x="20" dy="1.8em" fill="green">Same as delivery address</tspan>
+    <tspan x="20" dy="1.8em" fill="green">Post Code</tspan>
+    <tspan x="20" dy="1.8em">House Number</tspan>
+    <tspan x="20" dy="1.8em">Street</tspan>
+    <tspan x="20" dy="1.8em" text-decoration="line-through" fill="#aaa">Post Code</tspan>
+    <tspan x="20" dy="1.8em">
+        <tspan>Town</tspan>
+        <tspan fill="green"> / County</tspan>
+    </tspan>
+    <tspan x="20" dy="1.8em" text-decoration="line-through" fill="#aaa">County</tspan>
+    <tspan x="20" dy="1.8em">Country</tspan>
+    </text></g>
+</svg>
+
+
+
+
+
