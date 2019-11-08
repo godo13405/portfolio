@@ -1,13 +1,14 @@
 {{define "main"}}
-<main id="main" class="contained hero">
+<main id="main" class="hero">
   <div class="inner">
     <figure>
       <img src="/img/logo.svg" />
       <figcaption>by Goncalo Andrade</figcaption>
     </figure>
-    <h1>{{ .Site.Params.Tagline | markdownify }}</h1>
+    <h4>{{ .Site.Params.Tagline | markdownify }}</h4>
   </div>
 </main>
+{{ partial "nav.html" . }}
 <div class="contained">
   <div class="section">
     <img class="col-1" src="/img/me.svg" style="max-height:350px" />

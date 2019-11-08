@@ -22,8 +22,6 @@ The process needs to be quick and simple, so as to not get in her way.Mistakes a
 
 The checkout form provided is lengthy and the lack of visual hierarchy makes it difficult to read. The 1st task then is to deconstruct it and arrange the information in a more human-friendly manner.
 
-![](Screen-Shot-2016-08-24-at-16-b931d182-49da-4f78-8cc2-f9abf66743aa.13.29-cropped.png)
-
 ## Information Architecture
 
 Firstly, the information was broken down into logical segments, away from any interface or possible implementation. This allowed me to consider it on it’s on, and organise it on a conceptual level.

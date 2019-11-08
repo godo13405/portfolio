@@ -13,14 +13,11 @@ theme = "Uxcalibur"
 
 [menu]
   [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-  [[menu.main]]
     name = "Portfolio"
     url = "/portfolio/"
-    weight = 2
+  [[menu.main]]
+    name = "Home"
+    url = "/"
   [[menu.main]]
     name = "About me"
     url = "/about-me"
-    weight = 3
