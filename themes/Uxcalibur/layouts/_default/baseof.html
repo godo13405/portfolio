@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  {{ partial "head.html" . }}
-  {{ partial "nav.html" . }}
+  {{ partial "head.html" . }} {{ if ne .IsHome true}} {{ partial "nav.html" . }}
+  {{ end }}
   <body>
     {{ block "main" . }}{{ end }}
   </body>
