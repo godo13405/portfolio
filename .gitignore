@@ -19,3 +19,5 @@ content/img/.DS_Store
 content/img/.DS_Store
 content/.DS_Store
 content/img/.DS_Store
+node_modules
+package-lock.json
