@@ -2,10 +2,9 @@
 <article class="contained-small">
 <h1>{{ .Title }}</h1>
 {{ partial "dateTime.html" . }}
-{{ $urlPrepend := .Content | replaceRE `<img src="([a-zA-Z0-9\/\.\-]*)"` `<img src="../../img/$1"`}}
-{{ $gallery2 := $urlPrepend | replaceRE `<p>((<img.*?src="(.*?)"[^\>]+>[\s\n\r]*){2})</p>` `<div class="gallery col-2">$1</div>`}}
+{{ $gallery2 := .Content | replaceRE `<p>((<img.*?src="(.*?)"[^\>]+>[\s\n\r]*){2})</p>` `<div class="gallery col-2">$1</div>`}}
 {{ $gallery := $gallery2 | replaceRE `<p>((<img.*?src="(.*?)"[^\>]+>[\s\n\r]*){3,})</p>` `<div class="gallery col-3">$1</div>` }}
-{{ $figure := $gallery | replaceRE `<img src="([\w\d\/\.\-\:]*)" alt(="([\w\d\;\&\/\.\-\s]*)"|)( \/|)>` `<figure><img src="$1" alt="$3" /><figcaption>$3</figcaption></figure>` }}
+{{ $figure := $gallery | replaceRE `<img src="([\w\d\/\-\:]*).([\w\d\/\-\:]*)" alt(="([\w\d\;\&\/\.\-\s]*)"|)( \/|)>` `<figure><picture><source srcset="../../img/$1.webp" type="image/webp"><source srcset="../../img/$1.$2" type="image/$2"><img src="../../img/$1.$2"></picture><figcaption>$3</figcaption></figure>` }}
 {{ $figure | safeHTML}}
 </article>
 {{ end }}
