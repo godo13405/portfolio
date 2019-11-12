@@ -3,6 +3,9 @@ languageCode = "en-us"
 title = "UXCalibur"
 theme = "Uxcalibur"
 
+enableRobotsTXT = true
+canonifyURLs = true
+
 [permalinks]
   portfolio = "portfolio/:filename"
   page = "/:filename"
