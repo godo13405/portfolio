@@ -1,7 +1,7 @@
 .nav-container {
   $padd: 1rem;
   position: sticky;
-  top: -$padd;
+  top: 0;
   background: #fff;
   text-align: center;
   z-index: 1000;
@@ -18,7 +18,7 @@
     display: block;
     max-height: $nav-height;
     position: relative;
-    padding: $padd 0.6em 0;
+    padding: 0 0.6em;
     img {
       height: $nav-height;
     }

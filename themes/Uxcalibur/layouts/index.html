@@ -8,20 +8,19 @@
     <h4>{{ .Site.Params.Tagline | markdownify }}</h4>
   </div>
 </main>
-{{ partial "nav.html" . }}
 <div class="contained">
-  <div class="section">
-    <img class="col-1" src="/img/me.svg" style="max-height:350px" />
-    <div class="col-2">
-      {{ with .Site.GetPage "/page/about-me.md" }}{{ .Content }}{{ end }}
-    </div>
-  </div>
   <div class="section">
     <h2>My Work</h2>
     {{ .Scratch.Set "limit" 6}}
     {{ .Scratch.Set "content" (where (where .Site.Pages "Type" "eq" "portfolio") "Kind" "eq" "page") }}
     {{ partial "portfolio.html" . }}
     <a href="/portfolio" class="button">See more</a>
+  </div>
+  <div class="section">
+    <img class="col-1" src="/img/me.svg" style="max-height:350px" />
+    <div class="col-2">
+      {{ with .Site.GetPage "/page/about-me.md" }}{{ .Content }}{{ end }}
+    </div>
   </div>
   <div class="section">
     <h2>Articles I've written</h2>
