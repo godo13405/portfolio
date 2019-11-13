@@ -2,7 +2,7 @@
 {{ $content := .Scratch.Get "content" | default .Pages}}
 {{ $limit := .Scratch.Get "limit" | default 99}}
 {{ range sort $content .Params.date "desc" | first $limit }}
-{{ $bgImg := .RawContent | replaceRE `(\\n)*!\[[\w]*\]\(([\w\-.]*)\)[\s\S]*` `../../img/$2` | safeHTMLAttr }}
+{{ $bgImg := .RawContent | replaceRE `(\\n)*!\[[\w]*\]\(([\w\-.]*)\)[\s\S]*` `../../img/post/$2` | safeHTMLAttr }}
   <li{{ if eq .Params.highlight true }} class="highlight"{{ end }} style="background-color:{{if isset .Params "color"}}{{ .Params.color }}{{ else }}#eee{{ end }};background-image:url({{ trim $bgImg "\n" }})"><a href="{{ .RelPermalink }}">{{ .Title }}
   </a></li>
   {{ end }}
