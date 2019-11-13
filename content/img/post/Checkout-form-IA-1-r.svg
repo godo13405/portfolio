@@ -1,28 +1,3 @@
-<svg viewBox="0 0 382 580" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g><rect x="0" y="0" width="382" height="280" fill="white" stroke="#555"/>
-<text x="20" y="40" style="fill:#111;font-size:1.6em;font-family: 'GT Super Display', Georgia, 'Times New Roman', Times, serif">Address</text>
-<text x="20" y="50" style="fill:#111;font-size:1.2em;font-family: 'Fira Sans', Arial, Helvetica, sans-serif;">
-    <tspan x="20" dy="1.8em">House Number</tspan>
-    <tspan x="20" dy="1.8em">Street</tspan>
-    <tspan x="20" dy="1.8em">Post Code</tspan>
-    <tspan x="20" dy="1.8em">Town</tspan>
-    <tspan x="20" dy="1.8em">County</tspan>
-    <tspan x="20" dy="1.8em">Country</tspan>
-    </text>
-    </g><g>
-    <rect x="0" y="300" width="382" height="280" fill="white" stroke="#555"/>
-<text x="20" y="340" style="fill:#111;font-size:1.6em;font-family: 'GT Super Display', Georgia, 'Times New Roman', Times, serif">Billing Address</text>
-<text x="20" y="350" style="fill:#111;font-size:1.2em;font-family: 'Fira Sans', Arial, Helvetica, sans-serif;">
-    <tspan x="20" dy="1.8em">House Number</tspan>
-    <tspan x="20" dy="1.8em">Street</tspan>
-    <tspan x="20" dy="1.8em">Post Code</tspan>
-    <tspan x="20" dy="1.8em">Town</tspan>
-    <tspan x="20" dy="1.8em">County</tspan>
-    <tspan x="20" dy="1.8em">Country</tspan>
-    </text></g>
-</svg>
-
-
-
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:eb2ec21669ede3d2ec6f2beb04cce06f162a9e10b1d81a94272ce0fe0ff2a22e
+size 1342
