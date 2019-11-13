@@ -2,9 +2,14 @@
 <article class="contained-small">
 <h1>{{ .Title }}</h1>
 {{ partial "dateTime.html" . }}
-{{ $gallery2 := .Content | replaceRE `<p>((<img.*?src="(.*?)"[^\>]+>[\s\n\r]*){2})</p>` `<div class="gallery col-2">$1</div>`}}
-{{ $gallery := $gallery2 | replaceRE `<p>((<img.*?src="(.*?)"[^\>]+>[\s\n\r]*){3,})</p>` `<div class="gallery col-3">$1</div>` }}
-{{ $figure := $gallery | replaceRE `<img src="([\w\d\/\-\:]*).([\w\d\/\-\:]*)" alt(="([\w\d\;\&\/\.\-\s]*)"|)( \/|)>` `<figure><picture><source srcset="../../img/post/$1.webp" type="image/webp"><source srcset="../../img/post/$1.$2" type="image/$2"><img src="../../img/post/$1.$2"></picture><figcaption>$4</figcaption></figure>` }}
-{{ $figure | safeHTML}}
+{{ $content := .Content | replaceRE `<p>((<img.*?src="(.*?)"[^\>]+>[\s\n\r]*){2})</p>` `<div class="gallery col-2">$1</div>`}}
+{{ $content := $content | replaceRE `<p>((<img.*?src="(.*?)"[^\>]+>[\s\n\r]*){3,})</p>` `<div class="gallery col-3">$1</div>` }}
+
+{{ $content := $content | replaceRE `<p></p>` `` }}
+
+{{ $content := $content | replaceRE `<img src="([\w\d\/\-\:]*).(svg)" alt(="([\w\d\;\&\/\.\-\s]*)"|)( \/|)>` `<figure><img src="../../img/post/$1.$2"><figcaption>$4</figcaption></figure>` }}
+{{ $content := $content | replaceRE `<img src="([\w\d\/\-\:]*).(png|jpg|jpeg|gif)" alt(="([\w\d\;\&\/\.\-\s]*)"|)( \/|)>` `<figure><picture><source srcset="../../img/post/$1.webp" type="image/webp"><source srcset="../../img/post/$1.$2" type="image/$2"><img src="../../img/post/$1.$2"></picture><figcaption>$4</figcaption></figure>` }}
+
+{{ $content | safeHTML}}
 </article>
 {{ end }}

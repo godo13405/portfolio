@@ -1,8 +1,9 @@
 ---
-layout: portfolio
 title: "About me"
 date: 2019-09-16 10:45:06 +0000
 categories:
+type: "page"
+layout: "about"
 ---
 
 ## Pleased to meet you

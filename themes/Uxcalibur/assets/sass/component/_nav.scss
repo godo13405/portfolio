@@ -22,6 +22,10 @@
     max-height: $nav-height;
     position: relative;
     padding: 0 0.6em;
+    color: $color-text;
+    &:hover {
+      text-decoration: underline;
+    }
     img {
       height: $nav-height;
     }
