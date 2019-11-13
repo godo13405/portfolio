@@ -1,0 +1,20 @@
+<!-- Primary Meta Tags -->
+{{ $seoTitle := print .Title " | " .Site.Params.Tagline}}
+{{ $og_image := "/img/og_image.png" }}
+<title>{{ $seoTitle }}</title>
+<meta name="title" content="{{ $seoTitle }}" />
+<meta name="description" content="{{ .Site.Params.Description }}" />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://beta.goncaloandrade.com/" />
+<meta property="og:title" content="{{ $seoTitle }}" />
+<meta property="og:description" content="{{ .Site.Params.Description }}" />
+<meta property="og:image" content="{{ $og_image }}" />
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="https://beta.goncaloandrade.com/" />
+<meta property="twitter:title" content="{{ $seoTitle }}" />
+<meta property="twitter:description" content="{{ .Site.Params.Description }}" />
+<meta property="twitter:image" content="{{ $og_image }}" />

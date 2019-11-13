@@ -9,6 +9,7 @@ theme = "Uxcalibur"
 
 [params]
     Tagline = "UX, Product, Digital Design"
+    Description = "Portfolio and work by Goncalo Andrade, UX designer"
     dateFormat = "2 Jan, 2006"
 
 [menu]
