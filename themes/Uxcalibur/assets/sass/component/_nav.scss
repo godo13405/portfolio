@@ -5,7 +5,9 @@
   background: #fff;
   text-align: center;
   z-index: 1000;
-  margin-top: -$nav-height;
+  .isHome & {
+    margin-top: -$nav-height;
+  }
   .nav {
     display: inline-flex;
     margin: 0 auto;

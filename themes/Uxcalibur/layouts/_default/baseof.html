@@ -1,5 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html
+  lang="en"
+  class="
+  {{ if eq .IsHome true}}isHome{{end}}"
+>
   {{ partial "head.html" . }} {{ if ne .IsHome true}} {{ partial "nav.html" . }}
   {{ end }}
   <body>
