@@ -1,6 +1,6 @@
 <!-- Primary Meta Tags -->
 {{ $seoTitle := print .Title " | " .Site.Params.Tagline}}
-{{ $og_image := "/img/og_image.png" }}
+{{ $og_image := print .Site.Params.absUrl "/img/og_image.png" }}
 <title>{{ $seoTitle }}</title>
 <meta name="title" content="{{ $seoTitle }}" />
 <meta name="description" content="{{ .Site.Params.Description }}" />
