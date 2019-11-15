@@ -2,6 +2,8 @@ baseURL = "/"
 languageCode = "en-us"
 title = "UXCalibur"
 theme = "Uxcalibur"
+enableRobotsTXT = true
+googleAnalytics = "UA-23456303-7"
 
 [permalinks]
   portfolio = "portfolio/:filename"
@@ -23,3 +25,8 @@ theme = "Uxcalibur"
   [[menu.main]]
     name = "About me"
     url = "/about-me"
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5

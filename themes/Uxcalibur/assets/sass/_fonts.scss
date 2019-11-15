@@ -52,7 +52,6 @@ h6 {
 @for $i from 1 to 7 {
   h#{$i} {
     font-size: headerSize($font-size, $i);
-    @debug headerSize($font-size, $i);
 
     @media all and (max-width: $mobile-width) {
       font-size: headerSize($font-size-proportional, $i);

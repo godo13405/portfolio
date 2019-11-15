@@ -7,7 +7,7 @@
     "build": "npm run img && hugo",
     "start": "hugo serve",
     "dev": "open http://localhost:1313 && hugo serve",
-    "img": "node img.js",
+    "img": "node imgClear.js && node img.js",
     "deploy": "npm run build && netlify deploy"
   },
   "repository": {

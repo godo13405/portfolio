@@ -7,8 +7,6 @@ const sharp = require("sharp"),
     height: 1000
   };
 
-function resizeimg(params, cb) {}
-
 fs.readdir(params.src, function(err, files) {
   files = files.filter(el => /\.(png|jpg|jpeg)$/.test(el));
   files.forEach(function(file) {
