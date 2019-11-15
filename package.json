@@ -4,10 +4,11 @@
   "description": "[beta.goncaloandrade.com](https://beta.goncaloandrade.com)",
   "main": "index.js",
   "scripts": {
-    "build": "npm img && hugo",
+    "build": "npm run img && hugo",
     "start": "hugo serve",
     "dev": "open http://localhost:1313 && hugo serve",
-    "img": "node img.js"
+    "img": "node img.js",
+    "deploy": "npm run build && netlify deploy"
   },
   "repository": {
     "type": "git",
