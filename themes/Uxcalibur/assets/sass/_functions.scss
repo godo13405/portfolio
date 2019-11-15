@@ -1,0 +1,29 @@
+@function strip-unit($number) {
+  @if type-of($number) == "number" and not unitless($number) {
+    @return $number / ($number * 0 + 1);
+  }
+
+  @return $number;
+}
+
+@function pow($number, $exponent) {
+  $value: 1;
+  $number: strip-unit($number);
+
+  @if $exponent > 0 {
+    @for $i from 1 through $exponent {
+      $value: $value * $number;
+    }
+  } @else if $exponent < 0 {
+    @for $i from 1 through -$exponent {
+      $value: $value / $number;
+    }
+  }
+
+  @return $value;
+}
+
+@function headerSize($size, $x) {
+  $output: $size * ((8 - $x)/2);
+  @return $output;
+}

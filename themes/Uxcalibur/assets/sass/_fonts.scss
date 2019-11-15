@@ -39,11 +39,11 @@ html {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: "GT Super Display", Georgia, "Times New Roman", Times, serif;
 }
 
-h4,
 h5,
 h6 {
   font-weight: 300;
@@ -51,10 +51,11 @@ h6 {
 
 @for $i from 1 to 7 {
   h#{$i} {
-    font-size: $font-size + 6 * (6 - $i);
+    font-size: headerSize($font-size, $i);
+    @debug headerSize($font-size, $i);
 
     @media all and (max-width: $mobile-width) {
-      font-size: $font-size-proportional * (6 - $i);
+      font-size: headerSize($font-size-proportional, $i);
     }
   }
 }

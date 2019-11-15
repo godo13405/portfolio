@@ -11,7 +11,7 @@
 {{ partial "nav.html" . }}
 <div class="contained">
   <div class="section">
-    <h2>My Work</h2>
+    <h4>My Work</h4>
     {{ .Scratch.Set "limit" 6}}
     {{ .Scratch.Set "content" (where (where .Site.Pages "Type" "eq" "portfolio") "Kind" "eq" "page") }}
     {{ partial "portfolio.html" . }}
@@ -24,7 +24,7 @@
     </div>
   </div>
   <div class="section">
-    <h2>Articles I've written</h2>
+    <h3>Articles I've written</h3>
     {{ partial "medium.html" }}
     <a href="//medium.com/@goncaloandrade" class="button">See more</a>
   </div>

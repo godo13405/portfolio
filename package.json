@@ -4,7 +4,9 @@
   "description": "[beta.goncaloandrade.com](https://beta.goncaloandrade.com)",
   "main": "index.js",
   "scripts": {
+    "build": "npm img && hugo",
     "start": "hugo serve",
+    "dev": "open http://localhost:1313 && hugo serve",
     "img": "node img.js"
   },
   "repository": {
