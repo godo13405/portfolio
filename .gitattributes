@@ -1,2 +1,8 @@
-content/img/post/* filter=lfs diff=lfs merge=lfs -text
-content/img/og_image.png filter=lfs diff=lfs merge=lfs -text
+content/img/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+content/img/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
+content/img/**/*.png filter=lfs diff=lfs merge=lfs -text
+content/img/**/*.gif filter=lfs diff=lfs merge=lfs -text
+content/img/*.png filter=lfs diff=lfs merge=lfs -text
+content/img/*.jpg filter=lfs diff=lfs merge=lfs -text
+content/img/*.jpeg filter=lfs diff=lfs merge=lfs -text
+content/img/*.gif filter=lfs diff=lfs merge=lfs -text
